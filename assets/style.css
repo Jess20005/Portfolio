@@ -1,5 +1,114 @@
+* {
+  box-sizing: border-box;
+}
 
-.topnav {
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  padding: 10px; 
+  /* text-align: center; */
+  background:#a173bf;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  /* align-content: flex-start; */
+  background-color: lightslategray;
+}
+
+nav p {
+  display:flex;
+  align-content: flex-end;
+  /* flex-direction: flex-end;  */
+  padding: 14px 20px; 
+  text-decoration: none;
+}    
+  
+ h1 {
+  display:flex;
+  flex: flex-start;
+  font-size: 30px;
+} 
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+li {
+display: flex;
+flex: flex-end;
+padding: 10px; 
+} 
+
+main {
+  display: flex;
+}
+
+aside {
+  align-content: flex-end;
+  align-items: left;
+  background-color: #cecccf;
+  display: flex;
+  flex-direction: column;
+  flex: 5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  border-right: 5px solid black
+}
+
+h2 {
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-evenly; */
+}
+
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+/* Image Placeholders */
+.sample-img {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+
+
+/* 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.AboutMe { 
+  display: flex;
+  flex-direction: column;
+  min-width: 10px;
+  } */
+
+
+  
+  /* .topnav {
     background-color: darkgray;
     overflow: hidden;
 }
@@ -23,9 +132,32 @@ header {
 .topnav a:hover {
         background-color: lightgray;
         color: lightblue;
- }
+ } */
       
-     
+/*      
+ main {
+    display: flex;
+  }
   
+  aside {
+    flex: 30%;
+    background-color: #b9c6ae;
+    padding: 20px;
+    flex-wrap: wrap;
+  } 
    
-  
+  .sample-img {
+    display:flex;
+    flex-direction: flex-end;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black; */
+  /* } */
+
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
