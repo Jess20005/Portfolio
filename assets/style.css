@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* background-image:url(https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg); */
 }
 
 body {
@@ -10,8 +9,6 @@ body {
 
 header {
   padding: 10px;
-   /* text-align: center; */
-  /* background:#a173bf; */
   color: black;
   background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);
 }
@@ -25,7 +22,6 @@ nav {
 nav p {
   display:flex;
   align-content: flex-end;
-  /* flex-direction: flex-end;  */
   padding: 5px 8px; 
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,8 +44,6 @@ ul {
   flex-direction: row-reverse;
   align-content: flex-end;
   list-style-type: none;
-  /* max-width:40% */
-  /* margin-left: 25px; */
 }
 
 li {
@@ -89,10 +83,11 @@ h3 img{
 }
 
 section {
-  background-image:url(https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg); width: 100%;
+  background-image:url(https://images.pexels.com/photos/794494/pexels-photo-794494.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   flex: 70%;
   padding: 20px;
-  /* background-color: #d6a7db; */
+  border: black;
+  border-style: solid;
 }
 
 footer {
@@ -104,93 +99,9 @@ footer {
 
 /* Image Placeholders */
 .sample-img {
-  background-color: #fff;
-  width: 100%;
+  background-color: none;
+  width: 50%;
   padding: 20px;
   height: 200px;
   border: 1px solid black;
 }
-
-
-
-/* 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.AboutMe { 
-  display: flex;
-  flex-direction: column;
-  min-width: 10px;
-  } */
-
-
-  
-  /* .topnav {
-    background-color: darkgray;
-    overflow: hidden;
-}
-
-header {
-    padding: 20px;
-    font-family: 'Times New Roman', 'Gerogia', 'Garamond', 'Courier', serif;
-    background-image: url("https://metromidsayap-water.gov.ph/wp-content/uploads/2016/11/Header-Background.jpg");
-    color: #ffffff; 
-}
-
- .topnav a {
-        float: right;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: underline;
-        font-size: 17px;
- }
-      
-.topnav a:hover {
-        background-color: lightgray;
-        color: lightblue;
- } */
-      
-/*      
- main {
-    display: flex;
-  }
-  
-  aside {
-    flex: 30%;
-    background-color: #b9c6ae;
-    padding: 20px;
-    flex-wrap: wrap;
-  } 
-   
-  .sample-img {
-    display:flex;
-    flex-direction: flex-end;
-    background-color: #fff;
-    width: 100%;
-    padding: 20px;
-    height: 200px;
-    border: 1px solid black; */
-  /* } */
-
-  @media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
