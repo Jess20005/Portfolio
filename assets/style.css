@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* background-image:url(https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg); */
 }
 
 body {
@@ -8,37 +9,47 @@ body {
 }
 
 header {
-  padding: 10px; 
-  /* text-align: center; */
-  background:#a173bf;
-  color: #fff;
+  padding: 10px;
+   /* text-align: center; */
+  /* background:#a173bf; */
+  color: black;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);
 }
 
 nav {
   display: flex;
-  /* align-content: flex-start; */
-  background-color: lightslategray;
+  justify-content: flex-end;
+  background-color: #cecccf;
 }
 
 nav p {
   display:flex;
   align-content: flex-end;
   /* flex-direction: flex-end;  */
-  padding: 14px 20px; 
+  padding: 5px 8px; 
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: underline;
 }    
   
  h1 {
   display:flex;
   flex: flex-start;
   font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, cursive, monospace, serif;
+  font-style: italic;
+  max-width: 60%;
 } 
 
 ul {
   display: flex;
   flex-direction: row-reverse;
+  align-content: flex-end;
   list-style-type: none;
-  margin-left: 25px;
+  /* max-width:40% */
+  /* margin-left: 25px; */
 }
 
 li {
@@ -62,18 +73,26 @@ aside {
   justify-content: space-between;
   padding: 10px;
   border-right: 5px solid black
+
 }
 
 h2 {
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: space-evenly; */
+  text-decoration: underline;
+
+}
+
+h3 img{
+  display: flex;
+  align-content: center; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
+  background-image:url(https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg); width: 100%;
   flex: 70%;
-  background-color: #fff;
   padding: 20px;
+  /* background-color: #d6a7db; */
 }
 
 footer {
@@ -156,6 +175,20 @@ header {
     border: 1px solid black; */
   /* } */
 
+  @media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
     .sample-img {
       background-color: #8ac4ff;
