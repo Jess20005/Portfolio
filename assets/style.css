@@ -36,9 +36,10 @@ nav p {
   display:flex;
   flex: flex-start;
   font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, cursive, monospace, serif;
-  font-style: italic;
+  /* font-family: Georgia, 'Times New Roman', Times, cursive, monospace, serif; */
+  /* font-style: italic; */
   max-width: 60%;
+  font-family: 'Great Vibes', cursive;
 } 
 
 ul {
@@ -58,7 +59,7 @@ main {
   display: flex;
 }
 
-aside {
+#aboutMe {
   align-content: flex-end;
   align-items: left;
   background-color: #cecccf;
@@ -85,7 +86,8 @@ h3 img{
 }
 
 section {
-  background-image:url(https://images.pexels.com/photos/794494/pexels-photo-794494.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-image:url(https://images.pexels.com/photos/794494/pexels-photo-794494.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); 
+  opacity: 0.5;
   flex: 70%;
   padding: 20px;
   border: black;
