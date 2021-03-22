@@ -18,7 +18,7 @@ header {
 nav {
   display: flex;
   justify-content: flex-end;
-  background-color: #cecccf;
+  background-color: #ebe8e8;
 }
 
 nav p {
@@ -62,7 +62,7 @@ main {
 #aboutMe {
   align-content: flex-end;
   align-items: left;
-  background-color: #cecccf;
+  background-color: #ebe8e8;
   display: flex;
   flex-direction: column;
   flex: 5%;
@@ -86,8 +86,8 @@ h3 img{
 }
 
 section {
-  background-image:url(https://images.pexels.com/photos/794494/pexels-photo-794494.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); 
-  opacity: 0.5;
+  background-image:url(https://www.wallpapertip.com/wmimgs/79-796674_professional-background-images-for-ppt-3-high-resolution.jpg); 
+  /* opacity: 0.5; */
   flex: 70%;
   padding: 20px;
   border: black;
@@ -107,5 +107,15 @@ footer {
   width: 50%;
   padding: 20px;
   height: 200px;
-  border: 1px solid black;
+  
 }
+
+@media screen and (min-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+}
+
+
+
+
